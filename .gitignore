@@ -1,0 +1,37 @@
+# Объектные файлы
+*.o
+*.obj
+*.elf
+*.gcno
+*.gcda
+
+# Статические/динамические библиотеки
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+*.exp
+
+# Исполняемые файлы (Windows / кроссплатформа)
+*.exe
+*.out
+*.app
+*.com
+*.cmd
+
+# Директории сборки
+build/
+bin/
+obj/
+out/
+cmake-build-*/
+*.dSYM/
+
+# Временные файлы IDE / редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
