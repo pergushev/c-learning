@@ -1,0 +1,51 @@
+1 @echo off                                                                                                  │
+  │     2 REM Тест динамического массива - добавление 11 студентов (больше INITIAL_CAPACITY=10)                      │
+  │     3                                                                                                            │
+  │     4 (                                                                                                          │
+  │     5 echo 1                                                                                                     │
+  │     6 echo Ivan                                                                                                  │
+  │     7 echo 20                                                                                                    │
+  │     8 echo 4.5                                                                                                   │
+  │     9 echo 1                                                                                                     │
+  │    10 echo Maria                                                                                                 │
+  │    11 echo 21                                                                                                    │
+  │    12 echo 4.8                                                                                                   │
+  │    13 echo 1                                                                                                     │
+  │    14 echo Alex                                                                                                  │
+  │    15 echo 22                                                                                                    │
+  │    16 echo 4.2                                                                                                   │
+  │    17 echo 1                                                                                                     │
+  │    18 echo Olga                                                                                                  │
+  │    19 echo 19                                                                                                    │
+  │    20 echo 4.9                                                                                                   │
+  │    21 echo 1                                                                                                     │
+  │    22 echo Dmitry                                                                                                │
+  │    23 echo 23                                                                                                    │
+  │    24 echo 4.0                                                                                                   │
+  │    25 echo 1                                                                                                     │
+  │    26 echo Elena                                                                                                 │
+  │    27 echo 20                                                                                                    │
+  │    28 echo 4.7                                                                                                   │
+  │    29 echo 1                                                                                                     │
+  │    30 echo Sergey                                                                                                │
+  │    31 echo 21                                                                                                    │
+  │    32 echo 4.3                                                                                                   │
+  │    33 echo 1                                                                                                     │
+  │    34 echo Natalia                                                                                               │
+  │    35 echo 22                                                                                                    │
+  │    36 echo 4.6                                                                                                   │
+  │    37 echo 1                                                                                                     │
+  │    38 echo Pavel                                                                                                 │
+  │    39 echo 20                                                                                                    │
+  │    40 echo 4.4                                                                                                   │
+  │    41 echo 1                                                                                                     │
+  │    42 echo Anna                                                                                                  │
+  │    43 echo 19                                                                                                    │
+  │    44 echo 4.8                                                                                                   │
+  │    45 echo 1                                                                                                     │
+  │    46 echo Maxim                                                                                                 │
+  │    47 echo 23                                                                                                    │
+  │    48 echo 4.1                                                                                                   │
+  │    49 echo 2                                                                                                     │
+  │    50 echo 5                                                                                                     │
+  │    51 ) | 9d-student_struct.exe

@@ -1,0 +1,51 @@
+@echo off
+REM Тест динамического массива - добавление 11 студентов (больше INITIAL_CAPACITY=10)
+
+(
+echo 1
+echo Ivan
+echo 20
+echo 4.5
+echo 1
+echo Maria
+echo 21
+echo 4.8
+echo 1
+echo Alex
+echo 22
+echo 4.2
+echo 1
+echo Olga
+echo 19
+echo 4.9
+echo 1
+echo Dmitry
+echo 23
+echo 4.0
+echo 1
+echo Elena
+echo 20
+echo 4.7
+echo 1
+echo Sergey
+echo 21
+echo 4.3
+echo 1
+echo Natalia
+echo 22
+echo 4.6
+echo 1
+echo Pavel
+echo 20
+echo 4.4
+echo 1
+echo Anna
+echo 19
+echo 4.8
+echo 1
+echo Maxim
+echo 23
+echo 4.1
+echo 2
+echo 5
+) | 9d-student_struct.exe
